@@ -1,60 +1,111 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="id">
 <head>
-
   <meta charset="UTF-8">
-
-  <title>mashan - Login</title>
-
-    <link rel="stylesheet" href="login/css/style1.css" media="screen" type="text/css" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - [Nama Kamu]</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .cta {
+      margin-top: 1rem;
+    }
+    .cta a {
+      display: inline-block;
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
 </head>
-
 <body>
-
-  <html lang="en-US">
-  <head>
-
-    <meta charset="utf-8">
-
-    <title>Login</title>
-
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
-
-    <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <![endif]-->
-
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <div id="login">
-
-        <form action="javascript:void(0);" method="get">
-
-          <fieldset class="clearfix">
-
-            <p><span class="fontawesome-user"></span><input type="text" value="Username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
-            <p><span class="fontawesome-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
-            <p><input type="submit" value="Sign In"></p>
-
-          </fieldset>
-
-        </form>
-
-        <p>Not a member? <a href="#">Sign up now</a><span class="fontawesome-arrow-right"></span></p>
-
-      </div> <!-- end login -->
-
+  <header>
+    <h1>[NAMA LENGKAP]</h1>
+    <p>Content Creator | Desainer | Skincare Enthusiast</p>
+    <div class="cta">
+      <a href="#">📩 Hubungi Saya</a>
+      <a href="#">⬇️ Unduh CV</a>
     </div>
+  </header>
+  <main class="container">
+    <section class="section">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah seorang kreator konten dan desainer yang berfokus pada estetika, storytelling, dan hasil nyata. Berpengalaman dalam membuat konten TikTok yang relate, edukatif, dan engage—khususnya seputar skincare dan self-care.</p>
+    </section>
 
-  </body>
-</html>
+    <section class="section">
+      <h2>Pengalaman Kerja</h2>
+      <p><strong>Content Creator @ TikTok - @Fabasrng</strong> (2023 – Sekarang)<br>
+      Membuat konten viral seputar skincare dan acne journey. Berkolaborasi dengan brand lokal.</p>
+      <p><strong>Freelance Designer</strong> (2021 – Sekarang)<br>
+      Mendesain feed Instagram, UI/UX dasar, dan kampanye visual untuk UMKM.</p>
+    </section>
 
+    <section class="section">
+      <h2>Pendidikan & Sertifikasi</h2>
+      <ul>
+        <li>S1 Komunikasi Visual – [Nama Kampus]</li>
+        <li>Content Marketing (RevoU)</li>
+        <li>Personal Branding on TikTok (Skillshare)</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>TikTok Storytelling & Caption Writing</li>
+        <li>Desain (Canva, Figma, Adobe XD)</li>
+        <li>Video Editing (CapCut, VN)</li>
+        <li>Voice Over & Narasi</li>
+        <li>SEO Dasar Sosial Media</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Portofolio</h2>
+      <ul>
+        <li><a href="#">TikTok: @Fabasrng</a></li>
+        <li><a href="#">Google Drive: Portofolio PDF</a></li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Kontak</h2>
+      <p>Email: kamu@email.com</p>
+      <p>WhatsApp: +62xxxx</p>
+      <p>LinkedIn: [Link akun kamu]</p>
+    </section>
+  </main>
 </body>
-
 </html>
